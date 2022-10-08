@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #B5B3B3;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #272727;
+    position: relative;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+
+
+#plataforma {
+    font-style: italic;
+    font-size: 30px;
+    padding-left: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#icone-user {
+    width: 50px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+}
+
+#text-icone {
+    font-weight: bold;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #810505;
+}
+
+#meus-cursos a {
+    position: absolute;
+    right: 35%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#usuario {
+    position: absolute;
+    right: 12%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section {
+    background-color: #525252;
+    
+}
+
+#apresentacao-formacao {
+    font-size: 25px;
+    text-align: left;
+    width: 700px;
+    padding: 100px;
+    text-align: justify;
+    color: #FFFFFF
+}
+
+#dados-formacao h3 {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#dados-formacao {
+    height: 200px;
+    width: 100%;
+    background-color: #B5B3B3;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+#dados-formacao p {
+    padding-left: 45px;
+    font-size: 20px;
+}
+
+#dados-formacao div {
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    padding-right: 100px;
+}
+
+
+.icones-formacao {
+    width: 30px;
+    position: absolute;
+    padding-left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#descricao-formacao {
+    width: 80%;
+    background-color: #B5B3B3;
+    text-align: justify;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+#roda-pe {
+    width: 100%;
+    background-color: #525252;
+    height: 100px;
+    position: absolute;
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 30px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+.redes-sociais {
+    position: absolute;
+    float: right;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%
+}
+
