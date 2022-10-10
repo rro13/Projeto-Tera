@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+    background-color: #26335D;
+    width: 144.0rem;
+    height: 77.7rem;
+}
+
+.brandName{
+   position: absolute;
+   left: 19.5rem;
+   top: 1.7rem
+   
+}
+
+h2{
+    font-size: 2.4rem;
+}
+
+.containerHeader{
+    width: 132.2rem;
+    margin: 0 auto;
+}
+
+section{
+    width: 57.3rem;
+    height: 38.6rem;
+    padding-top: 14.8rem;
+    margin-left: 13.2rem;
+    margin-right: 3rem;
+}
+
+section p{
+    font-size: 1.6rem;
+}
+
+a{
+    font-size: 2.0rem;
+}
+
+h2, nav, h1, p , a {
+    color: white;
+    text-decoration: none;
+}
+
+#firstNav{
+    width: 27.5rem;
+    padding: 1.6rem 65.9rem 3.4rem 36.4rem;
+
+}
+
+#firstNav ul{
+    display: flex;
+    gap: 2.0rem;  
+}
+
+#secondNav{
+   position: absolute;
+   top: 1.6rem;
+   left: 93.8rem;
+}
+
+#secondNav ul {
+    display: flex;
+    gap: 4.5rem;
+}
+nav button{
+    background-color: #FF6551;
+    width: 13.7rem;
+    height: 5.2rem;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.buttons button:first-child {
+    background-color: #FF6551;
+    width: 13.7rem;
+    height: 5.2rem;
+    border-radius: 8px;
+    border-style: none;
+}
+.buttons button:nth-child(2) {
+    background-color: #26335D;
+    width: 13.7rem;
+    height: 5.2rem;
+    border-radius: 8px;
+    border-color: #FF6551;
+}
+
+.images img:nth-child(1){
+    position: absolute;
+    left: 76.3rem;
+    top: 17.8rem;
+
+    width: 42.4rem;
+    height: 51.6rem;
+    z-index: 1;
+    
+
+}
+.images img:nth-child(2){
+    position: absolute;
+    left: 95.0rem;
+    top: 17.8rem;
+
+    width: 42.4rem;
+    height: 51.6rem;
+    
+
+}
+
+h1{
+    font-size: 5.8rem;
+    line-height: 8.0rem;
+    letter-spacing: 0.2px;
+    
+    margin-top: 3.0rem;
+}
+
+
+
