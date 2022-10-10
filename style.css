@@ -122,7 +122,15 @@ section {
     margin-bottom: 50px;
 }
 
+#acesso-curso {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    text-decoration: none;
+}
+
 #roda-pe {
+    margin-top: 30px;
     width: 100%;
     background-color: #525252;
     height: 100px;
