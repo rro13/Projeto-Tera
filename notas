@@ -1,0 +1,3 @@
+display: flex					para colocar os elementos lado a lado
+justify-contente : space-around		para o espaço ao redor seja metade do espaço entre eles
+alignt-items: center				alinhar verticalmente
