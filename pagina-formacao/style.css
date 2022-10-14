@@ -30,10 +30,6 @@ header a {
     font-size: 20px;
 }
 
-main {
-    height: 91vh;
-}
-
 .nav-list {
     list-style: none;
     display: flex;
