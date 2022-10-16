@@ -133,3 +133,12 @@ iframe{
     margin-top: 1.0rem;
 
 }
+
+#myForm{
+    margin-top: 1.0rem;
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
