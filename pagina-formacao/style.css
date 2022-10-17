@@ -66,6 +66,7 @@ header a {
     display: none;
     cursor: pointer;
 }
+
 .mobile-menu div {
     width: 32px;
     height: 2px;
@@ -93,9 +94,6 @@ header a {
     }
     .nav-list li {
         margin-left: 0;
-    }
-    .icone-user {
-        display: none;
     }
     .mobile-menu {
         display: block;

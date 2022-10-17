@@ -8,5 +8,3 @@ function showMenu() {
     navList.classList.toggle('active');
 }
 hamburguerMenu.addEventListener('click',showMenu)
-
-// como fazer o icone user sumir quando abrir o menu mobile e reaparecer na tela de desktop.
