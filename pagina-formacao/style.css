@@ -105,106 +105,6 @@ header a {
     }
 }
 
-.curso-atual {
-    background-color: var(--color5);
-}
-
-.apresentacao-curso {
-    font-size: 25px;
-    text-align: left;
-    padding: 100px;
-    text-align: justify;
-    color: #FFFFFF
-}
-
-.apresentacao-curso p {
-    width: 80%;
-    margin-top: 20px
-}
-
-.dados-curso h3 {
-    font-size: 30px;
-    padding-top: 10px;
-    margin-bottom: 50px;
-}
-
-.dados-curso {
-    height: 200px;
-    width: 100%;
-    padding-left: 30px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-}
-
-.dados-curso p {
-    padding-left: 45px;
-    font-size: 20px;
-}
-
-.dados-curso div {
-    font-weight: bold;
-    display: inline-block;
-    position: relative;
-    padding-right: 100px;
-}
-
-
-.icones-formacao {
-    width: 30px;
-    position: absolute;
-    padding-left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.descricao-curso {
-    width: 70%;
-    text-align: justify;
-    position: relative;
-    transform: translateX(-50%);
-    left: 50%;
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-
-.descricao-curso h2 {
-    margin-top: 20px
-}
-
-.acesso-curso {
-    margin-top: 30px;
-    position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
-    text-decoration: none;
-    color: red;
-}
-
-.roda-pe {
-    color: #FFFFFF;
-    width: 100%;
-    background-color: var(--color3);
-    height: 100px;
-    position: relative;
-}
-
-.roda-pe p {
-    font-style: italic;
-    font-size: 30px;
-    position: absolute;
-    transform: translateY(-50%);
-    top: 50%;
-    margin: 0;
-    margin-left: 50px;
-}
-
-.redes-sociais {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 90%;
-}
-
 /* Pagina cursos */
 
 .titulo-main {
@@ -261,3 +161,93 @@ header a {
     margin: 0 20px 10px;
 }
 
+/* Pagina de um curso */
+
+.curso-atual {
+    background-color: var(--color5);
+}
+
+.apresentacao-curso {
+    font-size: 25px;
+    text-align: left;
+    padding: 100px;
+    text-align: justify;
+    color: #FFFFFF
+}
+
+.apresentacao-curso p {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.dados-curso h3 {
+    font-size: 30px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.container-dados-curso {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container-dados-curso .carga-horaria {
+    display: flex;
+    align-items: center;
+}
+
+.container-dados-curso .qtd-projetos {
+    display: flex;
+    align-items: center;
+}
+
+.icones-formacao {
+    padding: 20px;
+    width: 30px;
+}
+
+.descricao-curso {
+    width: 70%;
+    text-align: justify;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.descricao-curso h2 {
+    margin: 20px 0 20px
+}
+
+.acesse-curso {
+    margin: 50px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: red;
+}
+
+.roda-pe {
+    color: #FFFFFF;
+    width: 100%;
+    background-color: var(--color3);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.roda-pe p {
+    font-style: italic;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.redes-sociais {
+    margin-right: 50px;
+} 

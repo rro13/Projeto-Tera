@@ -9,23 +9,26 @@
     --bk-color: #072347;
     --textColor: white;
     --ff: 'Rubik', sans-serif;
+    --color1: #A5BEFA;
+    --color2: #B3093F;
+    --color3: #451531;
+    --color4: #64B7CC;
+    --color5: #FF3877;
 }
 
 body{
-    background-color: var(--bk-color);
-    font-family: var(--ff);  
+    background-color: var(--color2);
+    font-family: var(--ff); 
 }
 .page{
     min-width: 37.5rem;
     margin: 0 auto;
 }
 
-header{
-    padding: 0 5px;
-}
 #brand{
     text-transform: uppercase;
 }
+
 a{
     color:var(--textColor);
     text-decoration: none;
@@ -36,32 +39,45 @@ a span{
     color:black;
 }
 
-.containerOne{
+.nav-bar {
     display: flex;
-    gap: 2.2rem;
-    justify-content: space-between;
-
-    padding-top: 1.6rem;
-    margin-bottom: 0.9rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color3);
+    height: 9vh;
+    font-size: 5px;
 }
 
-.containerTwo{
-    display: flex;
-    gap: 2.2rem;
-    padding-right: 1.2rem;
+.logo {
+    font-size: 24px;
+    letter-spacing: 4px;
 }
 
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
 
 .navFormations{
     border-top: solid 2px;
     border-bottom: solid 2px;
     border-color: var(--textColor);
-    
     display: flex;
     gap: 1.4rem;
-
     margin-bottom: 0.9rem;
+    justify-content: space-around;
 }
+
+.apresentation {
+    margin: 5%;
+}
+
 #registration{
     color: black;
 }
@@ -79,6 +95,7 @@ main p{
 .video{
     display: flex;
     justify-content: center;
+    margin: 5%
 }
 iframe{
     height: auto;
@@ -109,6 +126,7 @@ iframe{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 5%;
 }
 
 .description h2{
@@ -135,10 +153,45 @@ iframe{
 }
 
 #myForm{
-    margin-top: 1.0rem;
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;
 }
+
+#myForm fieldset {
+    width: 80%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%
+}
+
+#myForm fieldset label {
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+}
+
 .input-wrapper{
     display: flex;
     flex-direction: column;
 }
 
+.roda-pe {
+    color: #FFFFFF;
+    width: 100%;
+    background-color: var(--color3);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.roda-pe p {
+    font-style: italic;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.redes-sociais {
+    margin-right: 50px;
+} 
