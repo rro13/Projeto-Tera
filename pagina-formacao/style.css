@@ -106,9 +106,8 @@ header a {
 /* Pagina cursos */
 
 .titulo-main {
-    margin-left: 40px;
     font-size: 35px;
-    margin-top: 30px;
+    padding: 3%;
 }
 
 .cursos-disponiveis {
@@ -139,8 +138,9 @@ header a {
 
 .curso {
     color: #FFFFFF;
-    margin: 25px;
+    margin: 5%;
     background-color: var(--color5);
+    border-radius: 5px;
 }
 
 .curso a {
@@ -168,26 +168,27 @@ header a {
 .apresentacao-curso {
     font-size: 25px;
     text-align: left;
-    padding: 100px;
+    padding: 10%;
     text-align: justify;
-    color: #FFFFFF
+    color: #FFFFFF;
+    box-sizing: border-box;
 }
 
 .apresentacao-curso p {
-    width: 80%;
     margin-top: 20px;
 }
 
 .dados-curso h3 {
     font-size: 30px;
-    padding-left: 50px;
-    margin-bottom: 50px;
+    padding-left: 10%;
+    margin-bottom: 2%;
 }
 
 .container-dados-curso {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 10%;
     font-weight: bold;
     font-size: 25px;
 }
@@ -233,19 +234,62 @@ header a {
     color: #FFFFFF;
     width: 100%;
     background-color: var(--color3);
-    height: 100px;
+    height: 30vh;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.roda-pe p {
-    font-style: italic;
-    font-size: 30px;
-    margin: 0;
-    margin-left: 50px;
+.logo-footer {
+    font-size: 24px;
+    letter-spacing: 4px;
+    display: flex;
+    margin: 1% 5%;
+}
+
+.sobre-plataforma {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.sobre-plataforma li {
+    padding: 10px;
+}
+
+.sobre-plataforma a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.comunidade {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.comunidade li {
+    padding: 10px;
+}
+
+.comunidade a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .redes-sociais {
-    margin-right: 50px;
+    margin: 1% 5%;
+    padding: 10px;
+}
+
+.siga-nos {
+    margin-bottom: 10px;
+}
+
+.redes-sociais li {
+    list-style: none;
+    display: flex;
+    display: inline;
 } 
