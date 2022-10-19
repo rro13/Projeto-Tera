@@ -177,7 +177,7 @@ iframe{
 }
 
 #myForm fieldset {
-    width: 50%;
+    width: 75%;
     position: relative;
     transform: translateX(-50%);
     left: 50%
