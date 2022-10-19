@@ -166,6 +166,10 @@ iframe{
     margin-top: 1.0rem;
 }
 
+#titulo-form {
+    text-align: center;
+}
+
 #myForm{
     margin-top: 3.0rem;
     margin-bottom: 3.0rem;
@@ -173,7 +177,7 @@ iframe{
 }
 
 #myForm fieldset {
-    width: 80%;
+    width: 50%;
     position: relative;
     transform: translateX(-50%);
     left: 50%
@@ -188,4 +192,12 @@ iframe{
 .input-wrapper{
     display: flex;
     flex-direction: column;
+}
+
+#btn-submit {
+    width: 20%;
+    border-radius: 5px;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%
 }

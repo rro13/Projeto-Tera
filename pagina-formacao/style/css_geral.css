@@ -164,7 +164,6 @@
 .redes-sociais li {
     list-style: none;
     display: inline-block;
-    flex-direction: row;
 } 
 
 .fa {
