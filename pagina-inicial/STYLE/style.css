@@ -33,7 +33,6 @@ body{
 a{
     color:var(--textColor);
     text-decoration: none;
-    /* font-size: 1.6rem; */
 }
 
 a span{
@@ -58,6 +57,8 @@ a span{
 
 .apresentation p {
     font-size: 2rem;
+    hyphens: auto;
+    text-align: justify;
 }
 
 #registration{
